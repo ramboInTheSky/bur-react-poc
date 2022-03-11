@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render correctly 1`] = `
+<styled.div>
+  <styled.button
+    disabled={false}
+  >
+    hello
+  </styled.button>
+</styled.div>
+`;
+
+exports[`Button should render correctly when disabled 1`] = `
+<styled.div>
+  <styled.button
+    disabled={true}
+  >
+    hello
+  </styled.button>
+</styled.div>
+`;

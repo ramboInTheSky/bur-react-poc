@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<ContextProvider
+  value={
+    Array [
+      Object {
+        "forms": Object {
+          "consent": false,
+          "firstname": "",
+          "lastname": "",
+          "password": "",
+          "username": "",
+        },
+        "user": undefined,
+      },
+      [Function],
+    ]
+  }
+>
+  <App />
+</ContextProvider>
+`;

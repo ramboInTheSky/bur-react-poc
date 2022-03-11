@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+<styled.header>
+  <styled.h1>
+    hello
+  </styled.h1>
+  <styled.nav>
+    <ul>
+      <li>
+        <Link
+          to="/"
+        >
+          Login
+        </Link>
+      </li>
+      <li>
+        <Link
+          to="/register"
+        >
+          Register
+        </Link>
+      </li>
+    </ul>
+  </styled.nav>
+</styled.header>
+`;
+
+exports[`Header should render correctly with a user 1`] = `
+<styled.header>
+  <styled.h1>
+    hello
+  </styled.h1>
+  <styled.nav>
+    <p>
+      welcome 
+      test@test.com
+      ,
+       
+      <styled.button
+        onClick={[Function]}
+      >
+        logout
+      </styled.button>
+    </p>
+  </styled.nav>
+</styled.header>
+`;

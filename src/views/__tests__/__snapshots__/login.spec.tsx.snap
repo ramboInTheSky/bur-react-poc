@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render correctly 1`] = `
+<styled.div>
+  <Header
+    onLogout={[Function]}
+    title="Login"
+  />
+  <styled.div>
+    <styled.form
+      onSubmit={[Function]}
+    >
+      <TextInput
+        onChange={[Function]}
+        placeholder="Email"
+        value="foo"
+      />
+      <TextInput
+        onChange={[Function]}
+        placeholder="Password"
+        type="password"
+        value="bar"
+      />
+      <Button
+        label="Login"
+        type="submit"
+      />
+    </styled.form>
+  </styled.div>
+</styled.div>
+`;
